@@ -15,7 +15,7 @@ navbar
 헤더 상단에 navbar 추가 About me, Skills, Projects란을 클릭하면 그 창으로 이동  
 html파일 : 14줄, css파일 : 15줄  
 웹페이지 상단에 메뉴(네비게이션 바)를 만드는 코드  
-<nav>:메뉴 전체를 감싸는 태그  
-<ul>: 메뉴 항목들을 묶는 리스트  
-<li>: 각각의 메뉴(About Me, Skills, Projects)  
-<a href="#about">: 클릭하면 해당 섹션으로 이동하게 해줌  
+<nav> :메뉴 전체를 감싸는 태그  
+<ul> : 메뉴 항목들을 묶는 리스트  
+<li> : 각각의 메뉴(About Me, Skills, Projects)  
+<a href="#about"> : 클릭하면 해당 섹션으로 이동하게 해줌  

@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #555;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+section {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.section-title {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.profile-img {
+    display: flex;
+    width: 260px;
+    height: 300px;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    line-height: 0.1px;
+    font-size: 20px;
+    color: #333;
+}
+
+.about-box {
+    padding: 10px 20px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.about-box p {
+    font-size: 18px;
+}
+
+.skill-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.skill-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px 20px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 90%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.skill-list span {
+    background-color: rgb(152, 152, 152);
+    font-size: 18px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    top: -3px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    width: 220px;
+    gap: 24px;
+    border: 1px solid #ebeaec;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    border-radius: 16px;
+    padding: 24px;
+    background: #fff;
+}
